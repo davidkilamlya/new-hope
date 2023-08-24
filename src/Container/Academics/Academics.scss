@@ -1,0 +1,41 @@
+.academics {
+  padding: 0vh 20px 10px 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+  // background-color: #214dc5;
+
+  gap: 30px;
+}
+
+.academics-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #c9e5ad;
+
+  width: 100%;
+  padding: 10px 30px;
+  gap: 10px;
+}
+.curricula-container {
+  background-color: #fff;
+  box-shadow: 3px 3px 8px #999;
+  display: flex;
+  border-radius: 10px;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+  flex-direction: column;
+  padding: 20px;
+  &:hover {
+    background-color: var(--secondary-color);
+    color: var(--white-color);
+    scale: 1.2;
+  }
+  @media screen and (max-width: 700px) {
+    width: 100%;
+  }
+}
